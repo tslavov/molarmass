@@ -41,7 +41,7 @@ U: Uppercase [A-Z]
 
 L: Lowercase [a-z]
 
-N: Number [0-9]
+N: Number [0-9\.]
 
 O: Open ( [
 
@@ -49,7 +49,7 @@ C: Close ) ]
 
 E: end of the formula
 
-Other allowed characters that are ignored: . - + = _ (space)
+Other allowed characters that are ignored: - + = _ (space)
 
 An 'x' in the table above at row R and column C means that a character of type R can be followed by a character of type C. For example, a number CAN be followed by an uppercase character, but NOT a lowercase character. A formula can ONLY begin with an uppercase character or open parentheses/bracket. A formula CANNOT end with an open parentheses/bracket
 
